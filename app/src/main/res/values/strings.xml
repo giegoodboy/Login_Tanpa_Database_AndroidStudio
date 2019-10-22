@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Find Food</string>
+    <string name="agree">when you submit any form, including, but not limited to, application forms or forms related to our products and services, both online and in physical form</string>
+    <string name="forget">We just need your registered Email id to send you password reset instructions</string>
+</resources>

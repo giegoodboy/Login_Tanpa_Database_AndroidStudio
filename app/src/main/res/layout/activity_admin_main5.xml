@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:id="@+id/frameLayout"
+            android:layout_width="349dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="343dp"
+            android:layout_height="689dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/login_form"
+            android:elevation="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/icon1"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/wallet"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/ribbon"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/tag"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/online"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/bow"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/sale"
+                android:elevation="15dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="106dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/discount"
+                android:elevation="15dp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="94dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.851"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/frameLayout"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="157dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Welcome Admin"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.379"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="63dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bundarputih"
+            android:text="Back"
+            android:textColor="#228ce3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="72dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            app:srcCompat="@drawable/upload" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
